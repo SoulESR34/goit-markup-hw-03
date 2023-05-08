@@ -1,0 +1,141 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#757575;
+    line-height: 1.2;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+
+header{
+    border-bottom: 1px solid #ECECEC;
+}
+
+a:hover{
+    color:#2196F3;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    color: #757575;
+}
+
+button:hover{
+    background-color:#2196F3;
+    color:#fff;
+    cursor: pointer;
+}
+
+
+
+h2,
+h3{
+    color:#212121;
+}
+
+ul{
+    font-style: normal;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+
+.button_hero_studio{
+    background-color: #2196F3;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button_hero_studio:hover{
+    background-color: #1380da;
+}
+
+.benefit{
+    width: 270px;
+}
+
+.bar_buttons{
+    width: 611px;
+    margin: 0 auto;
+}
+
+.footer_card{
+    border: 1px solid #ECECEC;
+}
+
+footer,
+.hero{
+    background-color: #2F303A;
+    color:#fff;
+}
+
+.hero, h2{
+    text-align: center;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    color:#2196F3;
+    font-size: 26px;
+}
+
+.link_nav_bar{
+    font-weight: 500;
+    color:#000;
+}
+
+header,
+nav,
+.links_nav_bar,
+.elements,
+.filters,
+.benefits,
+.team,
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects_container{
+    justify-content: center;
+}
+
+.project a:hover{
+    color: #757575;
+}
+
+.projects{
+    justify-content: center;
+}
+
+.section,
+footer{
+    padding-top:97px;
+    padding-bottom: 97px;
+}
+
+.title_studio{
+    font-size: 44px;
+}
+
+
+
+
