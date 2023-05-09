@@ -20,6 +20,9 @@ body{
     width: 1200px;
 }
 
+button{
+    border-width:0 ;
+}
 
 
 header{
@@ -42,7 +45,9 @@ button:hover{
     cursor: pointer;
 }
 
-
+h2{
+    padding-bottom: 50px;
+}
 
 h2,
 h3{
@@ -53,15 +58,21 @@ ul{
     font-style: normal;
     list-style: none;
     padding-left: 0;
+    gap: 30px;
 }
 
 
 
 
 .button_hero_studio{
+    border-width: 0;
     background-color: #2196F3;
     color: #fff;
     font-size: 16px;
+    margin-top: 30px;
+    width: 261px;
+    height: 50px;
+    border-radius: 4px;
 }
 
 .button_hero_studio:hover{
@@ -72,13 +83,19 @@ ul{
     width: 270px;
 }
 
-.bar_buttons{
-    width: 611px;
+.filters{
     margin: 0 auto;
+    gap: 8px;
 }
+
+
 
 .footer_card{
     border: 1px solid #ECECEC;
+}
+
+.text_card{
+    margin: 20px ;
 }
 
 footer,
@@ -91,28 +108,39 @@ footer,
     text-align: center;
 }
 
+
 .logo{
     font-family: "Raleway", sans-serif;
     color:#2196F3;
     font-size: 26px;
 }
 
-.link_nav_bar{
+.links_nav_bar{
     font-weight: 500;
     color:#000;
+    text-shadow: 0px 4px 4px #bcbcbc;
 }
 
-header,
+
 nav,
 .links_nav_bar,
 .elements,
 .filters,
+.header_items,
 .benefits,
 .team,
 .projects{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+.filters button{
+    width: 128px;
+    height: 38px;
+    border-radius: 4px;
+}
+
 
 .projects_container{
     justify-content: center;
@@ -126,9 +154,14 @@ nav,
     justify-content: center;
 }
 
-.section,
-footer{
-    padding-top:97px;
+.section{
+    padding-top: 97px;
+}
+
+.hero, 
+footer, 
+.team_section{
+    padding-top: 97px;
     padding-bottom: 97px;
 }
 
@@ -136,6 +169,20 @@ footer{
     font-size: 44px;
 }
 
+.projects_container{
+    margin-bottom: 82px;
+}
 
+.bar_buttons{
+    margin-bottom: 50px;
+}
 
+.nav_bar{
+    margin-left: 103px;
+}
 
+.header_items{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
